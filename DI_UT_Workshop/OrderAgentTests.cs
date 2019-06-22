@@ -6,7 +6,7 @@ namespace DI_UT_Workshop
     public class OrderAgentTests
     {
         [Test]
-        public void seven_4_orders_family_2_order_hilife_1_order()
+        public void family_2_orders_seven_4_orders_hilife_1_order()
         {
             
         }
