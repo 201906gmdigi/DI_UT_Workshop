@@ -11,7 +11,7 @@ namespace MyConsole
         static void Main(string[] args)
         {
             var orderAgent = new OrderAgent();
-            orderAgent.SyncOrders();
+            orderAgent.SyncOrders().Wait();
         }
     }
 }
