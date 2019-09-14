@@ -8,10 +8,10 @@ namespace MyConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             var orderAgent = new OrderAgent();
-            orderAgent.SyncOrders().Wait();
+            await orderAgent.SyncOrders();
         }
     }
 }
